@@ -1,10 +1,8 @@
 # BBECW
-An exact algorithm for the edge weighted maximum clique problem (MEWCP) published in *A new branch-and-bound algorithm for the maximum edge-weighted clique problem* Eur. J. Oper. Res. 278(1): 76-90 (2019).
+This repository contains at present the dataset of clique instances tested by the algorithm BBECW for the Maximum Edge Weighted Clique Problem (MEWCP) described in the following article:
 
-This repository contains the dataset tested in the referre
+*A new branch-and-bound algorithm for the maximum edge-weighted clique problem*, by Pablo San Segundo, Fabio Furini, David Alvarez and Panos Pardalos (2022), EJOR, 278:1, 2019.
 
-CliSAT: A SAT-based exact algorithm for hard maximum clique problems by Pablo San Segundo, Stefano Coniglio, Fabio Furini and Ivana Ljubic. 
+The instances employed in the tests are in the dataset fodler.
 
-The instances employed in the tests are inside the instances folder in their original format.
-
-A Linux release of CliSAT is provided in the bin folder, together with a comparison performance report file CliSAT.appendix.pdf (which serves as appendix to the article).
+A Linux release of BBECW is provided in the bin folder, together with appropiate instructions.
