@@ -1,6 +1,6 @@
-The instances in the dimacs and SNAP folders contain no weight information on the edges.
-For the tests, weights on the edge were computed according to the formula:
+The instances in the *dimacs* and *SNAP* folders contain no weight information on the edges.
+For the tests, weights on the edges were computed according to the formula:
 
 we = (u + v)mod200 + 1,  e={u, v} in E
 
-The instances in the weighted_real_world folder contain weight information.
+The instances in the *weighted_real_world* folder contain weight information.
