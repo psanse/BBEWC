@@ -1,5 +1,5 @@
 # BBECW
-This repository contains information about the exact algorithm **BBECW** for the Maximum Edge Weighted Clique Problem (MEWCP) described in the following article:
+This repository contains information about the exact algorithm **BBEWC** for the Maximum Edge Weighted Clique Problem (MEWCP) described in the following article:
 
 *A new branch-and-bound algorithm for the maximum edge-weighted clique problem*, by Pablo San Segundo, Stefano Coniglio,  Fabio Furini and Ivana Ljubic, EJOR, 278:1, pp. 76-90, (2019).
 
