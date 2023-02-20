@@ -5,4 +5,4 @@ This repository contains information about the exact algorithm **BBEWC** for the
 
 The instances employed in the tests are in the *dataset* fodler.
 
-A Linux release of BBECW is provided in the *bin* folder, together with appropiate instructions and comments.
+A Linux release of BBEWC is provided in the *bin* folder, together with appropiate instructions and comments.
