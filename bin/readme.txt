@@ -24,7 +24,7 @@ Run the binary from the command line with the following parameters: name of the 
 
 In this release of BBEWC only the vertex ordering from the literature *DEG-SORT* (based on vertex degree) is considered.  When the graphs are large or massive, the current implementation of DEG-SORT can take too much time (use sorting parameter 0 for these cases).
 
-The current release of BBECW is limited compared with the published paper; it does not use a strong initial heuristic to determine an initial lower bound and only works with integer weights. Thus, the reported results in the above referred paper may vary slightly.
+The current release of BBECW is limited compared with the published paper; it does not use a strong initial heuristic (AMTS:=0 reported in the logs) to determine an initial lower bound and only works with integer weights. Thus, the reported results in the above referred paper may vary slightly.
 
 
 %%%%%%%%%%%%
