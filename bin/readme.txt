@@ -1,4 +1,4 @@
-This folder contains a linux binary release for the exact algorithm BBECW for the maximum edge weighted clique problem.
+This folder contains a linux binary release for the exact algorithm BBEWC for the maximum edge weighted clique problem.
 
 Article: A new branch-and-bound algorithm for the maximum edge-weighted clique problem. Eur. J. Oper. Res. 278(1): 76-90 (2019)
 
@@ -18,11 +18,11 @@ Run the binary from the command line with the following parameters: name of the 
 
 
 
-./BBECW_20231802 <filename> <time limit> <sort_type> <lower bound>
+./BBEWC_20231802 <filename> <time limit> <sort_type> <lower bound>
 
 
 
-In this release of BBECW only the vertex ordering from the literature *DEG-SORT* (based on vertex degree) is considered.  When the graphs are large or massive, the current implementation of DEG-SORT can take too much time (use sorting parameter 0 for these cases).
+In this release of BBEWC only the vertex ordering from the literature *DEG-SORT* (based on vertex degree) is considered.  When the graphs are large or massive, the current implementation of DEG-SORT can take too much time (use sorting parameter 0 for these cases).
 
 The current release of BBECW is limited compared with the published paper; it does not use a strong initial heuristic to determine an initial lower bound and only works with integer weights. Thus, the reported results in the above referred paper may vary slightly.
 
@@ -35,7 +35,7 @@ The current release of BBECW is limited compared with the published paper; it do
 
 Typing: 
 
-./BBECW_20231802 brock200_1.clq 100 1 1500  
+./BBEWC_20231802 brock200_1.clq 100 1 1500  
 
 selects the DEG-SORT ordering of vertices and times out if the instance brock200_1.clq  is not solved within 100s using 1500 as an initial lower bound.
 
