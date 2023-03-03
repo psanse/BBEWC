@@ -35,7 +35,7 @@ The current release of BBECW is limited compared with the published paper; it do
 
 Typing: 
 
-./BBEWC_20231802 brock200_1.clq 100 1 1500  
+./BBEWC_20230323 brock200_1.clq 100 1 1500  
 
 selects the DEG-SORT ordering of vertices and times out if the instance brock200_1.clq  is not solved within 100s using 1500 as an initial lower bound.
 
