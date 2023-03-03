@@ -18,7 +18,7 @@ Run the binary from the command line with the following parameters: name of the 
 
 
 
-./BBEWC_20231802 <filename> <time limit> <sort_type> <lower bound>
+./BBEWC_20230303 <filename> <time limit> <sort_type> <lower bound>
 
 
 
